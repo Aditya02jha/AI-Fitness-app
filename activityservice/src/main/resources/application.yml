@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: activitydb
+      username: admin
+      password: password
+    application:
+        name: activity-service
+  server:
+    port: 8082
+logging:
+  level:
+    root: INFO
+    com.example.activityservice: DEBUG
